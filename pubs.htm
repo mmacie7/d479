@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Taniti Island</title>
+</head>
+<body>
+    <div class="container multiple-bgs">
+        <!-- HEADER BEGIN-->
+        <div>
+            <div style="width: 50%; float: left;">
+                <img src="/images/Gemini_Generated_Image_ftwjrsftwjrsftwj_nobg.png" style="height: 200px;"/>    
+            </div>
+          
+            <div id="weatherstrip" style="width: 50%; float: right; height: 200px; position: relative; bottom: 0;">
+                <section class="weather-panel">
+                    <div class="weather-day">
+                        <div id="wx-day-0" style="font-weight: 700;">Today</div>
+                        <div style="font-size: 20px;">&#9925;</div>
+                        <div>86°F / 77°F</div>
+                        <div>Partly Cloudy</div>
+                    </div>
+                    <div class="weather-day">
+                        <div id="wx-day-1" style="font-weight: 700;"></div>
+                        <div style="font-size: 20px;">&#127783;</div>
+                        <div>85°F / 76°F</div>
+                        <div>Light Showers</div>
+                    </div>
+                    <div class="weather-day">
+                        <div id="wx-day-2" style="font-weight: 700;"></div>
+                        <div style="font-size: 20px;">&#9728;</div>
+                        <div>87°F / 78°F</div>
+                        <div>Sunny</div>
+                    </div>
+                </section> </span> 
+                <script>
+                    const now = new Date();
+                    for (let i = 1; i <= 2; i += 1) {
+                        const d = new Date(now);
+                        d.setDate(now.getDate() + i);
+                        document.getElementById(`wx-day-${i}`).textContent = d.toLocaleDateString(undefined, { weekday: "short" });
+                    }
+                </script>
+            </div>
+            
+            <div class="navbar" >
+                
+                <a href="index.htm" style="width: 90px;">Home</a>
+                <div class="subnav" style="width: 90px;">
+                    <button class="subnavbtn" style="width: 90px;" onclick="window.location.href='dining.htm'">Dining <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content dining-offset">
+                        <a href="restaurants.htm">Restaurants</a>
+                        <a href="pubs.htm">Pubs</a>
+                    </div>
+                </div> 
+                <div class="subnav" style="width: 90px;">
+                    <button class="subnavbtn" style="width: 90px;" onclick="window.location.href='lodging.htm'">Lodging <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content lodging-offset">
+                        <a href="resort.htm">Resort</a>
+                        <a href="hotels.htm">Hotels</a>
+                        <a href="hostels.htm">Hostels &amp; B&amp;B</a>
+                    </div>
+                </div> 
+                <div class="subnav" style="width: 135px;">
+                    <button class="subnavbtn" style="width: 135px;" onclick="window.location.href='entertainment.htm'">Entertainment <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content entertainment-offset">
+                        <a href="excursions.htm">Excursions</a>
+                        <a href="historical.htm">Historical</a>
+                        <a href="nightlife.htm">Nightlife</a>
+                    </div>
+                </div>
+                <a href="transportation.htm" style="width: 135px;">Transportation</a>
+                <a href="about.htm" style="width: 75px;">About</a>
+                <a href="faq.htm" style="width: 75px;">FAQ</a>
+            </div>
+        </div>
+        <!-- HEADER END-->
+        
+        <!-- CONTENT START-->
+        <div class="content">
+            <h1>Pubs</h1>
+
+            <div style="height: 300px;">
+                <div style="width: 35%; float: left; padding-right: 20px;">
+                    <img src="/images/pexels-elevate-3009767.jpg" class="snapshot" />
+                </div>
+                <div style="width: 65%; float: right;">
+                    <h4>Lorem ipsum</h4> 
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mi est, malesuada nec felis in, tincidunt bibendum quam. 
+                    Vestibulum non porta dui, non pellentesque mauris. Suspendisse quis convallis metus. Aenean placerat nisl sit amet eros molestie cursus. 
+                    </p>  
+                </div>
+            </div>
+            <br />
+            <div style="height: 300px;">
+                <div style="width: 65%; float: left;">
+                    <h4>Vestibulum non</h4> 
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mi est, malesuada nec felis in, tincidunt bibendum quam. 
+                    Vestibulum non porta dui, non pellentesque mauris. Suspendisse quis convallis metus. Aenean placerat nisl sit amet eros molestie cursus. 
+                    </p>  
+                </div>
+                <div style="width: 35%; float: right; padding-left: 20px;">
+                    <img src="/images/pexels-igor-starkov-233202-799869.jpg" class="snapshot" />
+                </div>
+            </div>
+            <br />
+            <div style="height: 300px;">
+                <div style="width: 35%; float: left; padding-right: 20px;">
+                    <img src="/images/pexels-eye-loveu-1386264148-26083272.jpg" class="snapshot" />
+                </div>
+                <div style="width: 65%; float: right;">
+                    <h4>Lorem ipsum</h4> 
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mi est, malesuada nec felis in, tincidunt bibendum quam. 
+                    Vestibulum non porta dui, non pellentesque mauris. Suspendisse quis convallis metus. Aenean placerat nisl sit amet eros molestie cursus. 
+                    </p>  
+                </div>
+            </div>
+        </div>
+        <!-- CONTENT END-->
+
+
+          
+        <!-- FOOTER START-->
+        <div class="footer">
+            <br />
+            <div style="height: 100px;"></div>
+            <hr />
+            Contact Us:
+            <br />
+            &#x260E; +689 55 55 89 12
+            <br />
+            &#x2709; <a href="">information&commat;taniti.com</a>
+        </div>
+        <!-- FOOTER END-->
+    </div>    
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+</body>
+</html>
+
