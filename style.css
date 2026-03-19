@@ -37,7 +37,7 @@ a {
 
 
 .footer {
-    background: url("/images/pexels-donaldtong94-65322_r3_c1_processed_by_imagy.jpg") center top no-repeat;
+    background: url("./images/pexels-donaldtong94-65322_r3_c1_processed_by_imagy.jpg") center top no-repeat;
     background-size: 1200px auto;
     height: 400px;
     vertical-align: top;
@@ -63,8 +63,8 @@ hr {
 
 .multiple-bgs {
     background:
-        url("/images/pexels-donaldtong94-65322_r1_c1_processed_by_imagy.jpg") center top no-repeat,
-        url("/images/pexels-donaldtong94-65322_r2_c1_processed_by_imagy.jpg") center center repeat-y;
+        url("./images/pexels-donaldtong94-65322_r1_c1_processed_by_imagy.jpg") center top no-repeat,
+        url("./images/pexels-donaldtong94-65322_r2_c1_processed_by_imagy.jpg") center center repeat-y;
     background-size: 1200px auto, 1200px auto;
     background-color: #ffffff; /* Only the very last background can be a color  */
 
@@ -74,9 +74,9 @@ hr {
 /* 
 .multiple-bgs {
     background:
-        url("/images/pexels-donaldtong94-65322_r1_c1_processed_by_imagy.jpg") center top no-repeat,
-        url("/images/pexels-donaldtong94-65322_r2_c1_processed_by_imagy.jpg") center center no-repeat,
-        url("/images/pexels-donaldtong94-65322_r3_c1_processed_by_imagy.jpg") center bottom no-repeat;
+        url("./images/pexels-donaldtong94-65322_r1_c1_processed_by_imagy.jpg") center top no-repeat,
+        url("./images/pexels-donaldtong94-65322_r2_c1_processed_by_imagy.jpg") center center no-repeat,
+        url("./images/pexels-donaldtong94-65322_r3_c1_processed_by_imagy.jpg") center bottom no-repeat;
     background-size: 1200px auto, 1200px auto, 1200px auto;
     background-color: #ffffff;
     border: 1px solid red; */
